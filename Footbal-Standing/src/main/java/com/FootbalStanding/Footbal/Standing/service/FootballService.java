@@ -88,7 +88,7 @@ public class FootballService {
             String tn = teamNode.get("team_name").asText();
             if (inputTeamName != null && !tn.equalsIgnoreCase(inputTeamName)) continue;
             ResponseDTO dto = new ResponseDTO();
-//            dto.setCountryId(teamNode.path("country_id").asText());
+            dto.setCountryId(teamNode.path("country_id").asText());
             dto.setCountryName(countryName);
             dto.setLeagueId(teamNode.path("league_id").asText());
             dto.setLeagueName(leagueName);
