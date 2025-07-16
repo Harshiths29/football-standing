@@ -58,9 +58,9 @@ function App() {
             const response = await fetch('http://localhost:8080/api/football/toggle-mode');
             const msg = await response.text();
             if (!response.ok) throw new Error(msg);
-            setToggleMessage(`✅ ${msg}`);
+            setToggleMessage(` ${msg}`);
         } catch (err) {
-            setToggleMessage(`❌ ${err.message}`);
+            setToggleMessage(` ${err.message}`);
         }
     };
 
