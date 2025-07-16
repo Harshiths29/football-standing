@@ -37,7 +37,7 @@ For online app.offline-mode=false use below details as input
   "team": "Merthyr Town"
 }
 ```
-### 📺 How to Run the UI
+###  How to Run the UI
 
 After starting the backend API:
 
